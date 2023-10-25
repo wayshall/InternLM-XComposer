@@ -14,8 +14,8 @@ import requests
 from PIL import Image, ImageFile
 import torch
 import transformers
-# from transformers import StoppingCriteriaList, AutoTokenizer, AutoModel
-from modelscope import snapshot_download, StoppingCriteriaList, AutoModel, AutoTokenizer
+from transformers import StoppingCriteriaList
+from modelscope import snapshot_download, AutoModel, AutoTokenizer
 
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
